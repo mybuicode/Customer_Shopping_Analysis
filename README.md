@@ -23,14 +23,13 @@ Insights and recommendations are provided across the following key areas:
 - Category 4: Promotional Effectiveness & Customer Loyalty Programs
 
 The SQL queries used to inspect and clean the data for this analysis can be found here [GitHub Repository Link].<br>
-Targeted SQL queries regarding various business questions can be found here [GitHub Queries Link].
+Targeted SQL queries regarding various business questions can be found here [GitHub Queries Link].<br>
 An interactive Tableau dashboard used to report and explore sales trends can be found here [Tableau Dashboard Link].
----------------------------------
-Data Structure & Initial Checks
-
+<hr>
+###Data Structure & Initial Checks
 The analysis uses a single table: shopping_trends_updated
 The dataset contains 3,900 records and 3,900 unique Customer IDs.
-------------------------------------
+<hr>
 Executive Summary
 Overview of Findings
 
@@ -60,8 +59,8 @@ Category 4: Promotional Effectiveness & Customer Loyalty Programs
 - Non-subscribed customers form the vast majority: Unsubscribed customers significantly outnumber subscribed customers in total volume, representing an under-leveraged audience for retention marketing.
 - Discounts slightly reduce average spend: Transactions with a Discount Applied averaged a slightly lower purchase value ($58.70) than full-price transactions ($60.15), indicating that discounts are currently eroding margin without driving basket expansion.
 - Promotional codes are underutilized for upselling: Current promo structures apply indiscriminately across low and high values rather than encouraging customers to cross a Minimum Order Quantity (MOQ) or Spend Threshold.
-
-Recommendations
+<hr>
+Recommendations<br>
 Based on the insights above, the business should consider the following:
 - Adopt localized inventory planning. Product preferences vary across locations, so inventory allocation should reflect regional demand rather than relying on a uniform assortment.
 - Prioritize the Clothing category. Since Clothing generates the highest revenue, the business should maintain strong product availability and assortment within this category.
