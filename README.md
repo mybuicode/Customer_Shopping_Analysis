@@ -26,15 +26,17 @@ The SQL queries used to inspect and clean the data for this analysis can be foun
 Targeted SQL queries regarding various business questions can be found here [GitHub Queries Link].<br>
 An interactive Tableau dashboard used to report and explore sales trends can be found here [Tableau Dashboard Link].
 <hr>
-###Data Structure & Initial Checks
-The analysis uses a single table: shopping_trends_updated
-The dataset contains 3,900 records and 3,900 unique Customer IDs.
+Data Structure & Initial Checks <br>
+The analysis uses a single table: shopping_trends_updated <br>
+The dataset contains 3,900 records and 3,900 unique Customer IDs.<br>
 <hr>
 Executive Summary
 Overview of Findings
 
 An analysis of 3,900 transaction records reveals that while our total customer base is predominantly Male (68%) and driven by core Clothing sales, current promotional incentives (Discounts) and Subscription programs are failing to expand transaction sizes (AOV sits flat at ~$59-$60 across all groups). High-performing revenue states like Montana ($5,784 total revenue) are driven almost entirely by order volume rather than high cart value (ranking 6th in AOV), whereas top customer experience hubs like Michigan and New Jersey lead in CSAT ratings. To unlock growth, the business must shift from flat promotional discounting to localized inventory allocation and tiered loyalty thresholds.
-
+<p align="center">
+  <img src="images/dashboard_overview.png" width="1000">
+</p>
 Insights Deep Dive
 Category 1: Demographics & Customer Segmentation
 - Male dominance in customer base: Out of 3,900 distinct customers, Male shoppers represent 68% of the customer base, while Female shoppers account for 32%, indicating a significant gender skew in current market reach.
@@ -61,7 +63,7 @@ Category 4: Promotional Effectiveness & Customer Loyalty Programs
 - Promotional codes are underutilized for upselling: Current promo structures apply indiscriminately across low and high values rather than encouraging customers to cross a Minimum Order Quantity (MOQ) or Spend Threshold.
 <hr>
 Recommendations<br>
-Based on the insights above, the business should consider the following:
+Based on the insights above, the business should consider the following:<br>
 - Adopt localized inventory planning. Product preferences vary across locations, so inventory allocation should reflect regional demand rather than relying on a uniform assortment.
 - Prioritize the Clothing category. Since Clothing generates the highest revenue, the business should maintain strong product availability and assortment within this category.
 - Incorporate seasonality into inventory planning. Product and color preferences vary by season, providing an opportunity to optimize seasonal product assortments.
