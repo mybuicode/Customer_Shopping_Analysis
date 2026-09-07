@@ -27,8 +27,10 @@ Targeted SQL queries regarding various business questions can be found here [Git
 An interactive Tableau dashboard used to report and explore sales trends can be found here [Tableau Dashboard Link].
 <hr>
 Data Structure & Initial Checks <br>
-The analysis uses a single table: shopping_trends_updated <br>
-The dataset contains 3,900 records and 3,900 unique Customer IDs.<br>
+The analysis uses a single table: shopping_trends_updated. The dataset contains 3,900 records and 3,900 unique Customer IDs.
+<p align="center">
+  <img src="images/data_structure.png" style="width:80;height:200;">
+</p>
 <hr>
 Executive Summary<br>
 Overview of Findings
