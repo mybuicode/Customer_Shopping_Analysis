@@ -22,14 +22,13 @@ Insights and recommendations are provided across the following key areas:
 - Category 3: Geographic Performance & Store Location Benchmarks
 - Category 4: Promotional Effectiveness & Customer Loyalty Programs
 
-The SQL queries used to inspect and clean the data for this analysis can be found here [GitHub Repository Link].<br>
-Targeted SQL queries regarding various business questions can be found here [GitHub Queries Link].<br>
-An interactive Tableau dashboard used to report and explore sales trends can be found here [Tableau Dashboard Link].
+Targeted SQL queries regarding various business questions can be found here <a href="">[GitHub Queries Link]</a>.<br>
+An interactive PowerBi dashboard used to report and explore sales trends can be found here <a href="">[PowerBi Dashboard Link]</a>.
 <hr>
 Data Structure & Initial Checks <br>
 The analysis uses a single table: shopping_trends_updated. The dataset contains 3,900 records and 3,900 unique Customer IDs.
 <p align="center">
-  <img src="images/data_structure.png" style="width:80;height:200;">
+  <img src="images/data_structure.png" style="width:20;height:60;">
 </p>
 <hr>
 Executive Summary<br>
