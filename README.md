@@ -22,8 +22,8 @@ Insights and recommendations are provided across the following key areas:
 - Category 3: Geographic Performance & Store Location Benchmarks
 - Category 4: Promotional Effectiveness & Customer Loyalty Programs
 
-Targeted SQL queries regarding various business questions can be found here <a href="">[GitHub Queries Link]</a>.<br>
-An interactive PowerBi dashboard used to report and explore sales trends can be found here <a href="https://github.com/mybuicode/Customer_Shopping_Analysis/blob/main/customer_shopping.sql">[PowerBi Dashboard Link]</a>.
+Targeted SQL queries regarding various business questions can be found here: <a href="https://github.com/mybuicode/Customer_Shopping_Analysis/blob/main/customer_shopping.sql">[GitHub Queries Link]</a>.<br>
+An interactive PowerBi dashboard used to report and explore sales trends can be found here: <a href="https://github.com/mybuicode/Customer_Shopping_Analysis/blob/main/customer_shopping.pbix">[PowerBi Dashboard Link]</a>.
 <hr>
 Data Structure & Initial Checks <br>
 The analysis uses a single table: shopping_trends_updated. The dataset contains 3,900 records and 3,900 unique Customer IDs.
