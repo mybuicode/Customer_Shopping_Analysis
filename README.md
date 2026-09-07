@@ -30,13 +30,14 @@ Data Structure & Initial Checks <br>
 The analysis uses a single table: shopping_trends_updated <br>
 The dataset contains 3,900 records and 3,900 unique Customer IDs.<br>
 <hr>
-Executive Summary
+Executive Summary<br>
 Overview of Findings
 <br>
 An analysis of 3,900 transaction records reveals that while our total customer base is predominantly Male (68%) and driven by core Clothing sales, current promotional incentives (Discounts) and Subscription programs are failing to expand transaction sizes (AOV sits flat at ~$59-$60 across all groups). High-performing revenue states like Montana ($5,784 total revenue) are driven almost entirely by order volume rather than high cart value (ranking 6th in AOV), whereas top customer experience hubs like Michigan and New Jersey lead in CSAT ratings. To unlock growth, the business must shift from flat promotional discounting to localized inventory allocation and tiered loyalty thresholds.
 <p align="center">
   <img src="images/dashboard_overview.png" width="900">
 </p>
+
 Insights Deep Dive
 Category 1: Demographics & Customer Segmentation
 - Male dominance in customer base: Out of 3,900 distinct customers, Male shoppers represent 68% of the customer base, while Female shoppers account for 32%, indicating a significant gender skew in current market reach.
@@ -46,6 +47,7 @@ Category 1: Demographics & Customer Segmentation
 <p align="center">
   <img src="images/Customers.png" width="900">
 </p>
+
 Category 2: Seasonal & Regional Product Demand
 - Spring demand peaks in Sweaters & Shorts: Ranked ranking analysis reveals Spring purchases are led by Sweaters and Shorts, with top color preferences leaning toward Olive, Gray, and Teal.
 - Summer shifts to Pants, Jewelry, & Dresses: Summer sales are dominated by Pants, followed by Jewelry and Dresses, with Silver, Teal, and Blue ranking as the top 3 preferred colors.
@@ -54,6 +56,7 @@ Category 2: Seasonal & Regional Product Demand
 <p align="center">
   <img src="images/product_and_seasonal.png" width="900">
 </p>
+
 Category 3: Geographic Performance & Store Location Benchmarks
 - Montana leads in Total Revenue via Volume: Montana generated the highest total revenue ($5,784) across all 50 states, yet its average transaction value ($60) ranks only 6th overall, confirming revenue is driven by transaction volume rather than premium order sizes.
 - Top-performing locations in Customer Experience: Michigan and New Jersey achieved the highest average customer review ratings (Review_Rating), making them operational benchmarks for customer service and product satisfaction practices.
@@ -62,6 +65,7 @@ Category 3: Geographic Performance & Store Location Benchmarks
 <p align="center">
   <img src="images/regional.png" width="900">
 </p>
+
 Category 4: Promotional Effectiveness & Customer Loyalty Programs
 - Subscriptions fail to lift order values: Subscribed customers average $59.37 per purchase compared to $59.86 for non-subscribed customers, showing zero positive lift in AOV from subscription enrollment.
 - Non-subscribed customers form the vast majority: Unsubscribed customers significantly outnumber subscribed customers in total volume, representing an under-leveraged audience for retention marketing.
